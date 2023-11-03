@@ -1,0 +1,2 @@
+import { io } from 'socket.io-client';
+export const socket = io('http://192.168.1.11:8080/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTFlZjRmNzQyMGEwMjQyNmUwZWVkYTEiLCJpYXQiOjE2OTg4MTMyNzIsImV4cCI6MTY5ODg5OTY3Mn0.SXkTN_d_cYda-dKqFJS-zWC8WHbSdTVXEQeMWaKu3hY&bidderName=Harish');
